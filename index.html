@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+
+    <!-- Bootstrap and CSS here-->
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <link rel='stylesheet' type='text/css' href='bootstrap.css'>
+    <!-- <script src="jquery.js"></script>
+    <script src="application.js"></script> 
+    <script src="guessinggame.js"></script> -->
+
+  </head>
+  <body>
+
+      <div id='app' class='center container'>
+
+        <div id='headers'>
+          <!-- Title and subtitles! -->
+          <h1 id='title'>PLAY THE GUESSING GAME!</h1>
+          <h2 id='subtitle'>Guess a number between 1-100</h2>
+        </div>
+
+        <div id='main'>
+          <div id='input-parent'>
+              <!-- Player's guess input, and submit button -->
+              <input id='player-input' class='center' maxlength='3' placeholder="#"></input>
+              <button id="submit" class='center btn-success'>Submit</button>
+          </div>
+
+          <div id='guesses'>
+            <!-- unordered list of guesses -->
+            <p>Your previous guesses</p>
+              <ul id='guess-list'>
+                <li class='guess'>-</li> <!--why class guess all individual? cant put in ul?-->
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+              </ul>
+          </div>
+
+          <div id="menu-btns"></div> <!-- why cant i put class btn here -->
+            <!-- reset and hint buttons -->
+            <button class='btn' id='reset'>Reset</button>
+            <button class='btn' id='hint'>Hint</button>
+          </div>
+        </div>
+      </div>
+
+        <div id='footer' class='center'>
+            <div class='row'>
+              <div class='col-sm-4'>
+                <img src='fa-logo@2x.png'></img>
+              </div>
+
+              <div class='col-sm-4'>
+                <h4>Project by YOUR NAME HERE</h4>
+              </div>
+
+              <div class='col-sm-4'>
+                <img src='grace_hopper_academy.png'></img>
+              </div>
+
+
+        </div>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="js/GuessingGame.js"></script>
+  </body>
+</html>
+

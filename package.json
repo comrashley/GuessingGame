@@ -1,0 +1,22 @@
+{
+  "name": "guessinggame",
+  "version": "1.0.0",
+  "description": "final guessing game",
+  "main": "GuessingGame.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comrashley/GuessingGame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/comrashley/GuessingGame-Part3/issues"
+  },
+  "homepage": "https://github.com/comrashley/GuessingGame-Part3#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
